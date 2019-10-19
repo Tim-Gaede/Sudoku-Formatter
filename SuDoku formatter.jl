@@ -6,7 +6,7 @@ function text(puzzle)
 
 
     for row = 1 : 9
-        for col = 1 :9
+        for col = 1 : 9
 
             char = string(puzzle.grid[row, col])
             if (char == "0")   char = " "  end
